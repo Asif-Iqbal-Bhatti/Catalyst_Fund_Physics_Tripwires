@@ -1,0 +1,409 @@
+{
+ "reference (correct)": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    true,
+    4.263256414560601e-14
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    true,
+    1.306755492478531e-08
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    true,
+    4.4690995724222734e-05
+   ]
+  }
+ },
+ "S1 time step without units (2 not 2 fs)": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    true,
+    4.263256414560601e-14
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    true,
+    1.306755492478531e-08
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    false,
+    0.003548231123460419
+   ]
+  }
+ },
+ "S2 temperature given in eV, not K": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    true,
+    4.263256414560601e-14
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    true,
+    1.306755492478531e-08
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    false,
+    0.9999264846995827
+   ],
+   "nve_drift": [
+    true,
+    3.870053119533931e-09
+   ]
+  }
+ },
+ "S3 forces in kcal/mol, energy in eV": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    true,
+    9.827694213981886e-13
+   ],
+   "permutation": [
+    true,
+    7.176481631177012e-13
+   ],
+   "force_energy": [
+    false,
+    22.06049969865565
+   ],
+   "closed_loop": [
+    true,
+    7.009304692218166e-09
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    false,
+    0.028135337641989656
+   ]
+  }
+ },
+ "S4 force sign slip": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    true,
+    4.263256414560601e-14
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    false,
+    1.9999999869324452
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    false,
+    8908.486068818966
+   ]
+  }
+ },
+ "S5 per atom energy reported as total": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.662194004839926e-18
+   ],
+   "rotation": [
+    true,
+    4.263256414560601e-14
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    false,
+    2.18585928785504
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    true,
+    0.00015473540526460885
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    false,
+    0.03374625200856324
+   ]
+  }
+ },
+ "S6 leftover external field term": {
+  "naive_pass": false,
+  "tripwires": {
+   "translation": [
+    false,
+    0.0409999999999996
+   ],
+   "rotation": [
+    false,
+    0.03904494662400366
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    true,
+    1.2947427900771406e-08
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    false,
+    0.03589999999999944
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    true,
+    4.4690995724917646e-05
+   ]
+  }
+ },
+ "S7 periodic boundaries switched off": {
+  "naive_pass": false,
+  "tripwires": {
+   "translation": [
+    true,
+    3.289549702593056e-16
+   ],
+   "rotation": [
+    true,
+    2.8310687127941492e-14
+   ],
+   "permutation": [
+    true,
+    3.375077994860476e-14
+   ],
+   "force_energy": [
+    true,
+    2.3153265971131987e-08
+   ],
+   "closed_loop": [
+    true,
+    4.127070855203252e-10
+   ],
+   "extensivity": [
+    false,
+    0.2117273027114489
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    true,
+    2.2270116669689502e-05
+   ]
+  }
+ },
+ "S8 non conservative (direct force) model": {
+  "naive_pass": false,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    false,
+    0.0689363812619962
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    false,
+    0.13667605785862702
+   ],
+   "closed_loop": [
+    false,
+    0.004194204892567423
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    false,
+    0.012505873607011962
+   ]
+  }
+ },
+ "S9 noisy forces (unconverged SCF)": {
+  "naive_pass": false,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    false,
+    0.25813552959286357
+   ],
+   "permutation": [
+    false,
+    0.26000970312644023
+   ],
+   "force_energy": [
+    false,
+    0.07383482068549824
+   ],
+   "closed_loop": [
+    false,
+    0.0012111558650656695
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    true,
+    0.0003634444975669206
+   ]
+  }
+ },
+ "S10 time step too large (8 fs)": {
+  "naive_pass": true,
+  "tripwires": {
+   "translation": [
+    true,
+    3.9474596431116675e-16
+   ],
+   "rotation": [
+    true,
+    4.263256414560601e-14
+   ],
+   "permutation": [
+    true,
+    3.108624468950438e-14
+   ],
+   "force_energy": [
+    true,
+    1.306755492478531e-08
+   ],
+   "closed_loop": [
+    true,
+    3.0395285420536933e-10
+   ],
+   "extensivity": [
+    true,
+    5.715913853343579e-16
+   ],
+   "equipartition": [
+    true,
+    0.14689007452987074
+   ],
+   "nve_drift": [
+    true,
+    0.000524069926213669
+   ]
+  }
+ }
+}
